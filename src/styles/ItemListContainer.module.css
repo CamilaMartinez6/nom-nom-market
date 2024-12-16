@@ -1,0 +1,10 @@
+.mensajeContainer {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.mensaje {
+    font-family: 'TT Chocolates', sans-serif;
+    color: #6C3A1F;
+}

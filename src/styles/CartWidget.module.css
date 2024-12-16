@@ -1,0 +1,24 @@
+.widgetContainer {
+    margin-top: 20px;
+}
+
+.cantidadCarritoContainer {
+    background-color: #35776E;
+    border-radius: 100%;
+    width: 21px;
+    height: 21px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    bottom: 50px;
+    left: 30px;
+}
+
+.cantidadCarrito {
+    font-family: 'TT Chocolates', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    margin-top: 2px;
+    color: #F9E4C5;
+}

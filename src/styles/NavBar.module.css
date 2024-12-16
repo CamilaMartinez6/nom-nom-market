@@ -1,0 +1,27 @@
+.navbarContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 40px;
+    background-color: #35776E;
+    height: 110px;
+}
+
+.logoCategoriasContainer {
+    display: flex;
+}
+
+.logoImg {
+    width: 98px;
+    height: auto;
+    filter: drop-shadow(4px 4px 6px rgba(0, 0, 0, 0.3));
+}
+
+.categoriasContainer {
+    display: flex;
+    justify-content: space-between;
+    width: 480px;
+    align-items: center;
+    margin-left: 40px;
+}

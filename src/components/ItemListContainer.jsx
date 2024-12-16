@@ -1,7 +1,9 @@
+import styles from "../styles/ItemListContainer.module.css"
+
 function ItemListContainer(props) {
     return (
-        <div style={{display: "flex", justifyContent:"center", marginTop: "20px"}}>
-            <h1 style={{fontFamily: "'TT Chocolates', sans-serif", color: "#6C3A1F"}}>{props.aviso}</h1>
+        <div className={styles.mensajeContainer}>
+            <h1 className={styles.mensaje}>{props.aviso}</h1>
         </div>
     )
 }
