@@ -1,0 +1,220 @@
+{
+    "categorias": [
+        {
+            "nombre": "Snacks",
+            "productos": [
+                {
+                    "id": 1,
+                    "nombre": "Lay's Classic",
+                    "descripcion": "Papas Fritas Lay's Clasicas",
+                    "precio": 2500,
+                    "img": "/assets/lays classic.png"
+                },
+                {
+                    "id": 2,
+                    "nombre": "Cheetos Puffs Original",
+                    "descripcion": "Bocadillos con sabor intenso a queso con una textura ligera y aireada",
+                    "precio": 4000,
+                    "img": "/assets/Cheetos Puffs Original.png"
+                },
+                {
+                    "id": 3,
+                    "nombre": "Cheetos Cheddar Jalapeño",
+                    "descripcion": "Bocadillos sabor a queso, están hechos con queso de verdad y el picor justo.",
+                    "precio": 4000,
+                    "img": "/assets/Cheetos Cheddar Jalapeño.png"
+                },
+                {
+                    "id": 4,
+                    "nombre": "Oreo Thins",
+                    "descripcion": "Oreos Finas, ligeras y crujientes con sabor original",
+                    "precio": 3000,
+                    "img": "/assets/Oreo Thins.png"
+                },
+                {
+                    "id": 5,
+                    "nombre": "Gold Fish Cheddar",
+                    "descripcion": "Galletas con forma de pez dorado horneados sabor cheddar",
+                    "precio": 5000,
+                    "img": "/assets/Gold Fish Cheddar.png"
+                },
+                {
+                    "id": 6,
+                    "nombre": "Pringles Smokin' BBQ Ribs",
+                    "descripcion": "Papas fritas crujientes con el intenso sabor de las costillas de cerdo ahumadas a la barbacoa.",
+                    "precio": 6000,
+                    "img": "/assets/Pringles BBQ RIBS.png"
+                },
+                {
+                    "id": 7,
+                    "nombre": "Pringles Cheese & Chilli",
+                    "descripcion": "Papas fritas con sabor a chile y queso.",
+                    "precio": 6000,
+                    "img": "/assets/Pringles Cheese & Chilli.png"
+                },
+                {
+                    "id": 8,
+                    "nombre": "Pretzel Crisps Original",
+                    "descripcion": "Galletas de pretzel finas y crujientes sabor original",
+                    "precio": 3000,
+                    "img": "/assets/Pretzel Crisps Original.png"
+                }
+            ]
+        },
+        {
+            "nombre": "Golosinas",
+            "productos": [
+                {
+                    "id": 9,
+                    "nombre": "Reese's Original",
+                    "descripcion": "Pequeños dulces en forma de tartaleta con mantequilla de maní, textura granulada y envuelto en chocolate con leche",
+                    "precio": 2500,
+                    "img": "/assets/Reeses Original.png"
+                },
+                {
+                    "id": 10,
+                    "nombre": "Snickers Peanut Butter",
+                    "descripcion": "Barras de chocolate individuales con sabor a mantequilla de maní",
+                    "precio": 2000,
+                    "img": "/assets/Snickers Peanut Butter.png"
+                },
+                {
+                    "id": 11,
+                    "nombre": "Sour Patch Original",
+                    "descripcion": "Caramelos ácidos con variedad de sabores de frutas",
+                    "precio": 1300,
+                    "img": "/assets/Sour Patch Original.png"
+                },
+                {
+                    "id": 12,
+                    "nombre": "Milka Chips Ahoy!",
+                    "descripcion": "Delicioso chocolate con leche con piezas de galletas Chips Ahoy",
+                    "precio": 4000,
+                    "img": "/assets/Milka Chips Ahoy!.png"
+                },
+                {
+                    "id": 13,
+                    "nombre": "Twix Cookie Dough",
+                    "descripcion": "Barra Twix sabor a galleta",
+                    "precio": 2000,
+                    "img": "/assets/Twix Cookie Dough.png"
+                },
+                {
+                    "id": 14,
+                    "nombre": "Haribo Goldbears Original",
+                    "descripcion": "Deliciosas gomitas Haribo de sabores frutales",
+                    "precio": 3500,
+                    "img": "/assets/Haribo Goldbears Original.png"
+                },
+                {
+                    "id": 15,
+                    "nombre": "Almond Joy Original",
+                    "descripcion": "Deliciosa fusión de dulces de chocolate cremoso, coco dulce y almendras enteras",
+                    "precio": 4000,
+                    "img": "/assets/Almond Joy Original.png"
+                },
+                {
+                    "id": 16,
+                    "nombre": "Jelly Belly Original",
+                    "descripcion": "Gomitas gourmet, con 49 sabores originales únicos y deliciosos.",
+                    "precio": 3000,
+                    "img": "/assets/Jelly Belly Original.png"
+                }
+            ]
+        },
+        {
+            "nombre": "Bebidas",
+            "productos": [
+                {
+                    "id": 17,
+                    "nombre": "Coca-Cola Cherry Vanilla",
+                    "descripcion": "El clásico sabor de Coca-Cola con sabor cereza y vainilla.",
+                    "precio": 1200,
+                    "img": "/assets/Coca-Cola Cherry Vainilla.png"
+                },
+                {
+                    "id": 18,
+                    "nombre": "Coca-Cola Original Spiced",
+                    "descripcion": "Coca-Cola con una explosión de notas refrescantes de frambuesa y sabores especiados",
+                    "precio": 1300,
+                    "img": "/assets/Coca-Cola Original Spiced.png"
+                },
+                {
+                    "id": 19,
+                    "nombre": "Sprite Zero Cherry Lime",
+                    "descripcion": "Sprite con un gusto a cereza y lima",
+                    "precio": 1200,
+                    "img": "/assets/Sprite Zero Cherry Lime.png"
+                },
+                {
+                    "id": 20,
+                    "nombre": "Dr Pepper Original",
+                    "descripcion": "Dr pepper sabor original",
+                    "precio": 2000,
+                    "img": "/assets/Dr Pepper Original.png"
+                },
+                {
+                    "id": 21,
+                    "nombre": "Dr Pepper Creamy Coconut",
+                    "descripcion": "Dr Pepper Creamy Coconut, una combinación del distintivo sabor Dr Pepper con el refrescante sabor del coco.",
+                    "precio": 2300,
+                    "img": "/assets/21.png"
+                },
+                {
+                    "id": 22,
+                    "nombre": "Mountain Dew Diet",
+                    "descripcion": "Mountain Dew con cero calorías, cero azúcar y cero carbohidratos",
+                    "precio": 2500,
+                    "img": "/assets/Diet Mountain Dew.png"
+                },
+                {
+                    "id": 23,
+                    "nombre": "Monster Juiced Bad Apple",
+                    "descripcion": "Monster 500ml sabor manzana refrescante",
+                    "precio": 2000,
+                    "img": "/assets/Monster Juiced Bad Apple.png"
+                },
+                {
+                    "id": 24,
+                    "nombre": "Arizona Iced Tea Raspberry",
+                    "descripcion": "Té helado Arizona con frambuesa",
+                    "precio": 2800,
+                    "img": "/assets/Arizona Iced Tea Raspberry.png"
+                }
+            ]
+        },
+        {
+            "nombre": "Edicion Especial",
+            "productos": [
+                {
+                    "id": 25,
+                    "nombre": "Sprite Winter Spiced Cranberry Limited Edition",
+                    "descripcion": "Edición limitada de Sprite Winter sabor Spicy Cranberry de EE. UU",
+                    "precio": 3200,
+                    "img": "/assets/Sprite Winter Spiced Cranberry Limited Edition.png"
+                },
+                {
+                    "id": 26,
+                    "nombre": "Twix Bastón Edición Navideña",
+                    "descripcion": "Tubo de bastón de caramelo de 60,1 g de barras de caramelo de galleta TWIX Minis Size.",
+                    "precio": 3300,
+                    "img": "/assets/Twix Bastón Edicion Navideña.png"
+                },
+                {
+                    "id": 27,
+                    "nombre": "Jar M&M'S Milk Chocolate",
+                    "descripcion": "Tarro de caramelos de chocolate con leche M&M'S",
+                    "precio": 8200,
+                    "img": "/assets/Tarro Grande M&MS Milk Chocolate.png"
+                },
+                {
+                    "id": 28,
+                    "nombre": "Haribo Goldbears Edición Limitada San Valentin",
+                    "descripcion": "Edición limitada del día de San Valentín, Osos de oro sabor frambuesa y piña",
+                    "precio": 7000,
+                    "img": "/assets/Haribo Goldbears Edición Limitada San Valentin.png"
+                }
+            ]
+        }
+    ]
+}

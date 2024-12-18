@@ -4,16 +4,6 @@
     box-sizing: border-box;
 }
 
-.categoria-link{
-    font-family: 'Super Foods', sans-serif;
-    letter-spacing: 1px;
-    text-decoration: none;
-    color: #F9E4C5;
-}
-
-.categoria-link:hover{
-    color: #6C3A1F;
-}
-.categorias-lista{
-    list-style-type: none;
+#root{
+    background-image: url(/public/assets/bg.png);
 }

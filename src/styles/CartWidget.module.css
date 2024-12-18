@@ -22,3 +22,8 @@
     margin-top: 2px;
     color: #F9E4C5;
 }
+
+.carritoWidget {
+    position:relative;
+    right: 46px;
+}

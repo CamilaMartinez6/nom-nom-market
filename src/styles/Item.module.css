@@ -1,0 +1,39 @@
+.cardItem {
+    width: 20rem;
+    height: 35rem;
+    margin-bottom: 40px;
+    border: 2px solid #3f200f;
+    padding-top: 20px;
+    filter: drop-shadow(4px 4px 6px rgba(0, 0, 0, 0.3))
+}
+
+.cardTitulo {
+    font-family: 'Super Foods', sans-serif;
+    color: #3f200f;
+}
+
+.cardDescripcion {
+    font-family: 'TT Chocolates', sans-serif;
+    color: #3d3d3d;
+    font-size: 14px;
+}
+
+.cardPrecio {
+    padding-left: 20px;
+    font-family: 'Super Foods', sans-serif;
+    font-size: 30px;
+    color: #3f200f
+}
+
+.btnVerMas {
+    margin-bottom: 20px;
+    background-color: #35776E;
+    color: #F9E4C5 ;
+    border: none;
+    font-family: 'Super Foods', sans-serif;
+}
+
+.btnVerMas:hover {
+    color: #3f200f ;
+    background-color: #F9E4C5 ;
+}

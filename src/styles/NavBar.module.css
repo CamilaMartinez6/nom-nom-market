@@ -6,6 +6,7 @@
     padding: 10px 40px;
     background-color: #35776E;
     height: 110px;
+    filter: drop-shadow(4px 4px 6px rgba(0, 0, 0, 0.3))
 }
 
 .logoCategoriasContainer {
@@ -23,5 +24,20 @@
     justify-content: space-between;
     width: 480px;
     align-items: center;
-    margin-left: 40px;
+    margin-left: 20px;
+    margin-bottom: 0px !important;
+}
+
+.categoriaLink{
+    font-family: 'Super Foods', sans-serif;
+    letter-spacing: 1px;
+    text-decoration: none;
+    color: #F9E4C5;
+}
+
+.categoriaLink:hover{
+    color: #6C3A1F;
+}
+.categoriasLista{
+    list-style-type: none;
 }
