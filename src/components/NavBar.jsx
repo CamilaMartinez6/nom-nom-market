@@ -1,34 +1,34 @@
 import logo from "/assets/logo-nom-nom.png"
 import CartWidget from "./CartWidget"
 import styles from "../styles/NavBar.module.css"
-
+import { Link } from 'react-router'
 function NavBar() {
     return (
         <nav className={styles.navbarContainer}>
             <div className={styles.logoCategoriasContainer}>
-                <div>
+                <Link to='/'>
                     <img src={logo} alt="logo" className={styles.logoImg} />
-                </div>
+                </Link>
                 <ul className={styles.categoriasContainer}>
                     <li className={styles.categoriasLista}>
-                        <a className={styles.categoriaLink} href="" >
+                        <Link className={styles.categoriaLink} to='/categoria/snacks' >
                             Snacks
-                        </a>
+                        </Link>
                     </li>
                     <li className={styles.categoriasLista}>
-                        <a className={styles.categoriaLink} href="" >
+                        <Link className={styles.categoriaLink} to='/categoria/golosinas' >
                             Golosinas
-                        </a>
+                        </Link>
                     </li>
                     <li className={styles.categoriasLista}>
-                        <a className={styles.categoriaLink} href="" >
+                        <Link className={styles.categoriaLink} to='/categoria/bebidas' >
                             Bebidas
-                        </a>
+                        </Link>
                     </li>
                     <li className={styles.categoriasLista}>
-                        <a className={styles.categoriaLink} href="" >
+                        <Link className={styles.categoriaLink} to='/categoria/edicionesespeciales' >
                             Ediciones Especiales
-                        </a>
+                        </Link>
                     </li>
                 </ul>
             </div>

@@ -1,7 +1,7 @@
 {
     "categorias": [
         {
-            "nombre": "Snacks",
+            "nombre": "snacks",
             "productos": [
                 {
                     "id": 1,
@@ -62,7 +62,7 @@
             ]
         },
         {
-            "nombre": "Golosinas",
+            "nombre": "golosinas",
             "productos": [
                 {
                     "id": 9,
@@ -123,7 +123,7 @@
             ]
         },
         {
-            "nombre": "Bebidas",
+            "nombre": "bebidas",
             "productos": [
                 {
                     "id": 17,
@@ -184,7 +184,7 @@
             ]
         },
         {
-            "nombre": "Edicion Especial",
+            "nombre": "edicionesespeciales",
             "productos": [
                 {
                     "id": 25,
@@ -213,6 +213,34 @@
                     "descripcion": "Edición limitada del día de San Valentín, Osos de oro sabor frambuesa y piña",
                     "precio": 7000,
                     "img": "/assets/Haribo Goldbears Edición Limitada San Valentin.png"
+                },
+                {
+                    "id": 29,
+                    "nombre": "Meat Sticks Takis",
+                    "descripcion": "Palitos de carne picante Takis",
+                    "precio": 3000,
+                    "img": "/assets/meat sticks takis.png"
+                },
+                {
+                    "id": 30,
+                    "nombre": "Mini Chips Ahoy! Edicion Minions",
+                    "descripcion": "Edición limitada Chips Ahoy! Minions con 12 packs de mini cookies con chips de colores",
+                    "precio": 5200,
+                    "img": "/assets/31.png"
+                },
+                {
+                    "id": 31,
+                    "nombre": "Combo Edicion Limitada Coca-cola y Oreo",
+                    "descripcion": "Productos exclusivos OREO-Coca-Cola Galletas Rellenas y Coca-Cola-OREO Zero Edición Limitada.",
+                    "precio": 4500,
+                    "img": "/assets/oreo coca combo.png"
+                },
+                {
+                    "id": 32,
+                    "nombre": "Mr Beast Feastables Milk Chocolate",
+                    "descripcion": "Minibarritas de chocolate con leche MrBeast de Feastables de primera calidad elaborada con solo 5 ingredientes",
+                    "precio": 7500,
+                    "img": "/assets/feastables.png"
                 }
             ]
         }

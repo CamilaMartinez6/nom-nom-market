@@ -4,6 +4,6 @@
     box-sizing: border-box;
 }
 
-#root{
-    background-image: url(/public/assets/bg.png);
+#root {
+    background-image: url(/assets/bg.png) ;
 }

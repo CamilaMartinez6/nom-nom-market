@@ -1,6 +1,6 @@
 .cardItem {
     width: 20rem;
-    height: 35rem;
+    height: 36rem;
     margin-bottom: 40px;
     border: 2px solid #3f200f;
     padding-top: 20px;
@@ -15,7 +15,7 @@
 .cardDescripcion {
     font-family: 'TT Chocolates', sans-serif;
     color: #3d3d3d;
-    font-size: 14px;
+    font-size: 13px;
 }
 
 .cardPrecio {
