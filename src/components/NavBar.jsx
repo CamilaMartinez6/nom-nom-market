@@ -2,6 +2,7 @@ import logo from "/assets/logo-nom-nom.png"
 import CartWidget from "./CartWidget"
 import styles from "../styles/NavBar.module.css"
 import { Link } from 'react-router'
+
 function NavBar() {
     return (
         <nav className={styles.navbarContainer}>
