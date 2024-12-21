@@ -31,7 +31,6 @@ function ItemListContainer() {
                     const categoria = data.categorias.find(categoria => categoria.nombre === nombre)
                     return categoria ? categoria.productos.some(producto => producto.id === item.id) : false;
                 })
-                console.log("Productos filtrados:", filtrado)
                 setItemsFiltrados(filtrado);
             }
         }

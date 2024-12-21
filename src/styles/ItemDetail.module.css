@@ -1,0 +1,48 @@
+.itemImg {
+    width: 500px;
+    height: 500px;
+    border-radius: 46px;
+    filter: drop-shadow(4px 4px 6px rgba(0, 0, 0, 0.3))
+}
+
+.detail {
+    display: flex;
+    width: 1400px;
+    justify-content: space-between;
+    padding: 40px;
+    background-color: #5f2e14;
+    height: 700px;
+    align-items: center;
+    border-radius: 46px;
+    filter: drop-shadow(4px 4px 6px rgba(0, 0, 0, 0.3))
+}
+
+.bodyDetail {
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    width: 700px;
+    margin-right: 40px;
+    border-radius: 46px;
+    padding: 34px;
+    justify-content: space-between;
+}
+
+.itemNombre{
+    font-family: 'Super Foods', sans-serif;
+    color: antiquewhite;
+    margin-top: 10px;
+    font-size: 50px;
+}
+
+.itemDescripcion{
+    font-family: 'TT Chocolates', sans-serif;;
+    color: antiquewhite;
+    font-size: 20px;
+}
+
+.precio{
+    font-family: 'Super Foods', sans-serif;
+    color: antiquewhite;
+    font-size: 50px;
+}

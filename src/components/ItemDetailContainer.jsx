@@ -1,9 +1,12 @@
 import { useState, useEffect } from "react"
+import { useParams } from 'react-router'
 import ItemDetail from './ItemDetail'
+import styles from "../styles/ItemDetailContainer.module.css"
 
 function ItemDetailContainer() {
 
-    const [item, setItem] = useState()
+    const [item, setItem] = useState(null)
+    const { id } = useParams()
 
     useEffect(() => {
 
@@ -11,15 +14,18 @@ function ItemDetailContainer() {
             const response = await fetch("/data/data.json")
             const data = await response.json()
 
-            const product = data.productos.flatMap(productos => productos.id)
-            setItem(product)
-            setData(data)
+            const obtenerItem = data.categorias
+                .flatMap((categoria) => categoria.productos)
+                .find((producto) => producto.id === parseInt(id))
+            setItem(obtenerItem)
         }
         fetchData()
-    }, []);
+    }, [id]);
 
     return (
-        <ItemDetail item={item} />
+        <div className={styles.containerDetail}>
+            <ItemDetail item={item} />
+        </div>
     )
 }
 

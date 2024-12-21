@@ -1,0 +1,38 @@
+.btnUnidades {
+    background-color: #35776E;
+    border: none;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    color: antiquewhite;
+    font-family: 'TT Chocolates', sans-serif;
+    font-size: 30px;
+}
+
+.buttonsDetailContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.btnAñadirCarrito {
+    width: 200px;
+    margin-top: 15px;
+    height: 40px;
+    background-color: #35776E;
+    border: none;
+    border-radius: 46px;
+    color: antiquewhite;
+    font-family: 'TT Chocolates', sans-serif;
+}
+
+.unidadesCount {
+    font-family: 'Super Foods', sans-serif;
+    color: antiquewhite;
+    font-size: 30px;
+}
+
+.contadorContainer {
+    width: 120px;
+    display: flex;
+    justify-content: space-between;
+}
