@@ -1,8 +1,12 @@
 import styles from "../styles/CartWidget.module.css"
+import { useContext } from 'react'
+import { CartContext } from "../context/cartContext"
 
 function CartWidget() {
+    const { getUnits } = useContext(CartContext)
+    
     return (
-        <div className={styles.widgetContainer}>
+        <button className={styles.widgetContainer}>
             <svg xmlns="http://www.w3.org/2000/svg" width="56" height="54" viewBox="0 0 62 60" fill="none">
                 <path d="M60 30C60 45.4027 47.0786 58 31 58C14.9214 58 2 45.4027 2 30C2 14.5973 14.9214 2 31 2C47.0786 2 60 14.5973 60 30Z" fill="#F9E4C5" stroke="#6C3A1F" strokeWidth="4" />
             </svg>
@@ -12,10 +16,10 @@ function CartWidget() {
                 <path d="M12.7738 34.05H15.8571" stroke="#6C3A1F" strokeWidth="5" strokeLinecap="round" strokeLinejoin="round" />
                 <path d="M25.1071 34.05H28.1904" stroke="#6C3A1F" strokeWidth="5" strokeLinecap="round" strokeLinejoin="round" />
             </svg>
-            <div className={styles.cantidadCarritoContainer} >
-                <span className={styles.cantidadCarrito}>4</span>
+            <div className={styles.cantidadCarritoContainer}>
+                <span className={styles.cantidadCarrito}>{getUnits()}</span>
             </div>
-        </div>
+        </button>
     )
 }
 

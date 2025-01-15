@@ -7,7 +7,7 @@ function ItemListContainer() {
     const [itemsFiltrados, setItemsFiltrados] = useState([])
     const [data, setData] = useState(null)
     const { nombre } = useParams()
-
+   
     useEffect(() => {
 
         const fetchData = async () => {

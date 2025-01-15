@@ -7,7 +7,6 @@ import { BrowserRouter, Routes, Route } from 'react-router'
 function App() {
 
   return (
-    <>
       <BrowserRouter>
         <NavBar />
         <Routes>
@@ -16,7 +15,6 @@ function App() {
           <Route path="/item/:id" element={<ItemDetailContainer />} />
         </Routes>
       </BrowserRouter>
-    </>
   )
 }
 

@@ -13,7 +13,7 @@ function ItemDetail({ item }) {
                 </div>
                 <div className={styles.precioContainer}>
                     <h4 className={styles.precio}>${item?.precio}</h4>
-                    <ItemCount />
+                    <ItemCount item={item}/>
                 </div>
             </div>
         </div>
