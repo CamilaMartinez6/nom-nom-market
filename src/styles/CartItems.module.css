@@ -1,0 +1,20 @@
+.listaItems{
+    display: flex;
+    flex-direction: column;
+}
+
+.btnVaciar{
+    font-family: 'TT Chocolates', sans-serif;
+    border: 2px solid #5f2e14;
+    border-radius: 20px;
+    background-color: #35776E;
+    color: #F9E4C5;
+}
+.btnVaciar:hover{
+    background-color: #5f2e14;
+    color: #F9E4C5
+}
+
+.msgCarritoVacio{
+    font-family: 'TT Chocolates', sans-serif;
+}

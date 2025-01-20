@@ -4,6 +4,10 @@
     border: none;
 }
 
+.widgetContainer:hover {
+    background-color: transparent;
+}
+
 .cantidadCarritoContainer {
     background-color: #35776E;
     border-radius: 100%;
@@ -26,6 +30,6 @@
 }
 
 .carritoWidget {
-    position:relative;
+    position: relative;
     right: 46px;
 }

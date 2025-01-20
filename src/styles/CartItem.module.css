@@ -1,0 +1,25 @@
+.item{
+    font-family: 'TT Chocolates', sans-serif;
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.itemImg{
+    width: 50px;
+    border: 2px solid #5f2e14;
+    border-radius: 10px;
+}
+
+.btnBorrarItem{
+    border-radius: 100%;
+    width: 40px;
+    font-family: 'TT Chocolates', sans-serif;
+    color:  #F9E4C5;
+    border: 3px solid #5f2e14;
+    background-color: #35776E;;
+}
+
+.btnBorrarItem:hover{
+    background-color: #5f2e14;
+    color: #F9E4C5
+}
