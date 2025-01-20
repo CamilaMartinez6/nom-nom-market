@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react"
 import { useParams } from 'react-router'
 import ItemDetail from './ItemDetail'
+import { getItem } from '../firebase/db'
 import styles from "../styles/ItemDetailContainer.module.css"
 
 function ItemDetailContainer() {
@@ -9,17 +10,7 @@ function ItemDetailContainer() {
     const { id } = useParams()
 
     useEffect(() => {
-
-        const fetchData = async () => {
-            const response = await fetch("/data/data.json")
-            const data = await response.json()
-
-            const obtenerItem = data.categorias
-                .flatMap((categoria) => categoria.productos)
-                .find((producto) => producto.id === parseInt(id))
-            setItem(obtenerItem)
-        }
-        fetchData()
+        getItem(id, setItem)
     }, [id]);
 
     return (

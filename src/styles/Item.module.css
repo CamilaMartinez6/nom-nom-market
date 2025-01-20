@@ -4,7 +4,8 @@
     margin-bottom: 40px;
     border: 2px solid #3f200f;
     padding-top: 20px;
-    filter: drop-shadow(4px 4px 6px rgba(0, 0, 0, 0.3))
+    filter: drop-shadow(4px 4px 6px rgba(0, 0, 0, 0.3));
+    margin-left: 10px;
 }
 
 .cardTitulo {
