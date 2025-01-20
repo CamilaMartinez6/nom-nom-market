@@ -22,6 +22,7 @@
     border: 3px solid #5f2e14;
     border-radius: 10px;
     height: 40px;
+    text-decoration: none;
 }
 .btnComprar:hover{
     background-color: #5f2e14;

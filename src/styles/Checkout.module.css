@@ -1,0 +1,27 @@
+.formulario{
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    position: relative;
+    left: 700px;
+    margin-top: 40px;
+    height: 500px;
+    font-family: 'TT Chocolates', sans-serif;
+    color: #F9E4C5;
+    background-color: #5f2e14;
+    padding: 30px;
+    border: 5px solid #35776E;
+    border-radius: 50px;
+}
+
+.btnEnviar{
+    font-family: 'Super Foods', sans-serif;
+    background-color: #35776E;
+    border: 3px solid #5f2e14;
+    color: #F9E4C5;
+}
+.btnEnviar:hover{
+    background-color: #F9E4C5;
+    color: #35776E;
+    border: 3px solid #5f2e14;
+}

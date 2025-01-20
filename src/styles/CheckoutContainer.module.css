@@ -1,0 +1,20 @@
+.formContainer {
+    height: 842px;
+}
+
+.msgAlerta {
+    font-family: 'TT Chocolates', sans-serif;
+    font-size: 30px;
+    background-color: #5f2e14;
+    color: #F9E4C5;;
+    height: 80px;
+    padding: 20px;
+    border-radius: 50px;
+    margin-top: 40px;
+}
+
+.msgAlertaContainer {
+    height: 842px;
+    display: flex;
+    justify-content: center;
+}
